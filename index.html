@@ -3,7 +3,7 @@
 <head>
 <title>Technovanza</title>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-COMPATIBLE" content="IE-edge">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 h1{
@@ -52,9 +52,45 @@ h2{
 color:red;
 margin-bottom:5px;
 }
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('l.gif') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('l.gif') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('l.gif') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+}
 </style>
 </head>
-<body background=l.gif>
+<body>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
