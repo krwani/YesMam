@@ -19,14 +19,8 @@ body {
 }
 #search{
       border-radius: 5px;
-    position: absolute;
-    right:30px;
-    top: 7px;
+    
     height: 35px;
-}
-#search-button{
-      position: relative;
-    top: 10px;
 }
 #input{
   margin:0 0 5px 5px;
@@ -133,6 +127,17 @@ background-color:#262626;
 }
 input{
   width:250px;
+}
+#search {
+    /* padding-left: 500px; */
+    position: relative;
+    left: 600px;
+}
+.glyphicon-search:before {
+    content: "\e003";
+    position: relative;
+    left: 600px;
+    top: 8px;
 }
 }
 
