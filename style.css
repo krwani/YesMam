@@ -7,10 +7,7 @@ body {
   background-color: #CCCCCC;
   font-family: 'Oxygen', sans-serif;
 }
-.jumbotron>p{
-  margin-left:5px;
-  text-align: justify;
-}
+
 #header-nav {
   background-color: white;
   border-radius: 0;
@@ -21,6 +18,13 @@ body {
       border-radius: 5px;
     margin-top:5px;
     height: 35px;
+}
+.glyphicon-search:before {
+    content: "\e003";
+    /* float: right; */
+    position: relative;
+    left: 220px;
+    top: 15px;
 }
 #input{
   margin:0 0 5px 5px;
