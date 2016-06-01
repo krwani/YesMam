@@ -18,13 +18,21 @@ body {
   box-sizing:border-box;
 }
 #input{
-  margin:5px 0 10px 5px;
+  margin:0 0 5px 5px;
   width:250px;
+}
+button{
+  position: absolute;
+    right: 2%;
+}
+#search{
+  position:absolute;
+  right:20px;
 }
 #clg{
  font-family: 'Playfair Display', serif;
   position:absolute;
-  right:30px;
+  right:20px;
   font-size:1.5em;
  font-weight:bold;
   color:black;vertical-align: middle;
