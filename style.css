@@ -1,84 +1,15 @@
+header{
+  background-color: #CCCCCC;
+}
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #C0CBFF;
+  background-color: #CCCCCC;
   font-family: 'Oxygen', sans-serif;
 }
 .jumbotron>p{
   margin-left:5px;
   text-align: justify;
-}
-marquee{
-white-space: nowrap;
-}
-button{
-  background-color:gray;
-  color:white;
-  position:absolute;
-  right:0;
-  margin:0 0 0 3px;
-  
-}
-input{
-  color:black;
-  background-color:white;
-  position:absolute;
-  border:2px solid black;
-  right:0;
-  margin:0;
-  
-}
-#games{
- /* position:absolute;
-  top:50px;
-  height:250px;
-  width:350px;
- overflow:hidden;
- display:block;*/
-  color:red;
- font-size:1em;
-  padding-bottom:20px;
-white-space: nowrap;
-box-sizing:border-box;
-}
-#event span{
-   position: absolute;
-  top: 0;
-  right: 0;
-  border-bottom: 2px solid #3F0C1F;
-  width: 350px;
-  text-align: center;
-  font-size: 1.6em;
-  color:black;
- 
-}
-#map, #sponsors, #event{
-  height: 300px;
-  width: 350px;
-  margin: auto;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#map span,#sponsors span{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 350px;
-  text-align: center;
-  font-size: 1.6em;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
-}
-#event{
-  background-color:white;
-}
-#sponsors{
-  background:url(a.jpeg) no-repeat;
-}
-#map:hover, #sponsors:hover{
-  box-shadow:2px 2px 2px 2px white;
 }
 #header-nav {
   background-color: white;
@@ -94,38 +25,23 @@ box-sizing:border-box;
  font-weight:bold;
   color:black;vertical-align: middle;
   padding:0;
-  
  margin-top:30px;
  text-align:center;
-}
-#ft{margin:0;
-  height:91px;
-  width:130px;
-}
-#l{
-  margin:0;
-  height:110px;
-  width:85px;padding:0;
-  vertical-align: 0;
-}
-#kl{
-  height:100px;
-  width:100px;
 }
 #logo-img {
   background-image: url("j.jpg");
     background-repeat: no-repeat;
-  width: 141px;
-  height: 120px;
+  width: 240px;
+  height: 160px;
   margin: 10px 15px 10px 0;
 padding :10px;}
 
 .navbar-brand {
   padding-top: 25px;
+  
 }
 .navbar-brand h1 { 
   font-family: 'Playfair Display', serif;
-  color: #0000cc;
   font-size: 4em;
   text-transform: uppercase;
   font-weight: bold;
@@ -133,7 +49,7 @@ padding :10px;}
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-  width:550px;
+ /* width:550px;*/
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -173,26 +89,6 @@ padding :10px;}
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-#img-size{
-  padding-right:30px;
-  height:140px;
-  width:110px;
-}
-#footer-clg, #footer-sites {
-  line-height: 1.7;
-}
-#footer-clg > span{
-  font-size: 1.2em;
-}
-#clg-name{text-transform:uppercase;
-}
-
- #footer-sites {
-  text-align: center;
-  font-size: 1.3em;
-}
-
-
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
@@ -200,7 +96,6 @@ padding :10px;}
 background-color:#262626;
       margin-top: 50px;
 }
-
 
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -232,18 +127,6 @@ input{
 #slogan{
   margin-bottom:10px;
 }
-.img-responsive {
-    height: 605px;
-    width: 100%;
-}
-#img-size {
-    padding-right: 10px;
-    height: 190px;
-    width: 130px;
-}
-#map{
-  margin-top:20px;
-}
   .container .jumbotron {
     background: no-repeat;
     height: 804px;
@@ -266,10 +149,6 @@ input{
     padding:0;
      margin-top: 50px;
   }
-  .img-responsive{
-  height:438px;
-  width:100%;
-}
  .jumbotron>p{
     height: 150px;
     overflow:auto;
@@ -277,35 +156,18 @@ input{
   .jumbotron p {
     font-size: 16.5px;
 }
-  #sponsors,#event,#map{
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:30px;
-  margin-bottom:30px;
-  }
   #logo-img{
     float:left;
   }
-  #footer-clg, #footer-sites {
-    line-height: 1.7;
-}
   #clg{
     font-size:1.1em;
     position:absolute;
     right:10px;
   }
-  #footer-clg > span {
-    font-size: 1em;
-}
   .navbar-brand h1 {
     width:80%;
     font-size:3em;
   }
-  #img-size {
-    padding-right: 10px;
-    height: 190px;
-    width: 130px;
-}
 }
 
 @media (max-width: 767px) {
