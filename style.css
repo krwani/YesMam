@@ -19,7 +19,7 @@ body {
 }
 #search{
       border-radius: 5px;
-    
+    margin-top:5px;
     height: 35px;
 }
 #input{
@@ -30,10 +30,7 @@ button{
   position: absolute;
     right: 2%;
 }
-#search{
-  position:absolute;
-  right:20px;
-}
+
 #clg{
  font-family: 'Playfair Display', serif;
   position:absolute;
@@ -312,13 +309,7 @@ input{
         height: 100px;
     width: 75px;
 }
-  #sponsors,#event,#map{
-   width: 90%;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:30px;
-  margin-bottom:30px;
-  }
+  
   #logo-img{
     background: url('j3.jpg') no-repeat;
     margin: 5px 5px 5px 0;
