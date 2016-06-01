@@ -17,6 +17,17 @@ body {
   border: 0;
   box-sizing:border-box;
 }
+#search{
+      border-radius: 5px;
+    position: relative;
+    top: 7px;
+    height: 35px;
+}
+#search-button{
+      position: relative;
+    top: 10px;
+}
+}
 #input{
   margin:0 0 5px 5px;
   width:250px;
