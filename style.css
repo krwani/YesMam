@@ -23,7 +23,7 @@ body {
     content: "\e003";
     /* float: right; */
     position: relative;
-    left: 220px;
+    left: 270px;
     top: 15px;
 }
 #input{
@@ -141,11 +141,22 @@ input{
     height: 80%;
     margin: 5px 5px 5px 0;
   }*/
+  .glyphicon-search:before {
+    position: relative;
+    left: 220px;
+}
   input{
   width:200px;
 }
+#clg{
+      font-size: 1em;
+}
+h1{
+      font-size: 3.5em;
+}
 #slogan{
   margin-bottom:10px;
+  font-size: 0.8em;
 }
   .container .jumbotron {
     background: no-repeat;
@@ -163,6 +174,14 @@ input{
 input{
   width:150px;
 }
+.container {
+    width: 750px;
+    height: 150px;
+}
+.glyphicon-search:before {
+    position: relative;
+    left: 170px;
+}
   .container .jumbotron {
     /*background: url('../images/jumbotron_768.jpg') no-repeat;*/
     height: 605px;
@@ -178,6 +197,10 @@ input{
 }
   #logo-img{
     float:left;
+        width: 200px;
+    height: 100px;
+    /* margin-top: 50px; */
+    margin: 30px 15px 10px 0;
   }
   #clg{
     font-size:1.1em;
@@ -185,8 +208,12 @@ input{
     right:10px;
   }
   .navbar-brand h1 {
-    width:80%;
+    width:50%;
     font-size:3em;
+  }
+  
+  .navbar-brand{
+    height:0;
   }
 }
 
@@ -194,8 +221,19 @@ input{
   col-sm-12{
     width:100%;
   }
+  .navbar-header{
+    height:150px;
+  }
   input{
   width:150px;
+}
+.glyphicon-search:before {
+    position: relative;
+    left: 220px;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 0; 
 }
   .navbar-brand {
     padding-top: 10px;
@@ -224,19 +262,9 @@ input{
     margin-top: 50px;
     padding: 0;
   }
-  .jumbotron>p{
-    height: 200px;
-    overflow:auto;
-    font-size: 18px;
-  }
- #sponsors,#event,#map{
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:30px;
-  margin-bottom:30px;
-  }
+  
    #logo-img {
-    background: url('j3.jpg') no-repeat;
+    background: url('j.jpg') no-repeat;
     margin: 5px 5px 5px 5px;
     width: 100px;
     height: 85px;
@@ -244,17 +272,12 @@ input{
   #clg{
     font-size:0.8em;
   }
-  #img-size {
-    padding-right: 5px;
-    height: 150px;
-    width: 110px;
-}
- #map span,#sponsors span,#event span{
-    width: 100%;
+  .navbar-toggle{
+    background-color: #CCCCCC;
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 580px) {
   input{
   width:200px;
 }
@@ -292,8 +315,9 @@ input{
     float: left;
     width: 100%;
   }
-  .jumbotron p {
-    font-size: 16.5px;
+  .navbar-header{
+    height:100px;
+  }
 }
   #slogan{
     font-size:0.5em;
