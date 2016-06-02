@@ -253,7 +253,7 @@ h1{
     margin-top: 0; 
 }
 .navbar-toggle{
-  margin:2px 15px 2px;
+  margin:2px 0px 2px;
       padding: 6px 8px;
 }
   .navbar-brand {
@@ -368,4 +368,7 @@ h1{
 .navbar{
   min-height: 0px; 
 }
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: white;
 }
