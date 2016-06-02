@@ -20,6 +20,8 @@ toggle:hover {
       border-radius: 5px;
     margin-top:5px;
     height: 35px;
+    font-family:"Times New Roman", Times, serif;
+    font-style: normal;
 }
 .glyphicon-search:before {
     content: "\e003";
@@ -301,6 +303,9 @@ h1{
   .navbar{
   min-height: 0px; 
 }
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: white;
+}
 }
 
 @media (max-width: 390px) {
@@ -376,7 +381,8 @@ h1{
 .navbar{
   min-height: 0px; 
 }
-}
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: white;
 }
+}
+
