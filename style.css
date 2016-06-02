@@ -135,7 +135,7 @@ background-color:#262626;
     top: 15px;
 }
 #input{
-  height:28px;
+  height:25px;
 }
 }
 
@@ -152,9 +152,6 @@ background-color:#262626;
     position: relative;
     left: 220px;
     top: 15px;
-}
-#input{
-  height:25px;
 }
   #input, #search{
   width:200px;
