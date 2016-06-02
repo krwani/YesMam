@@ -303,7 +303,7 @@ h1{
 }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 390px) {
   #input{
   width:60px;
   height: 12px;
