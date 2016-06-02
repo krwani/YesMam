@@ -49,12 +49,16 @@
         <li><a href="#">Contact</a></li>
         <li>
           <input id="search" class="navbar-right" type="text" placeholder="Search.." autocomplete="on">
-    <div class="glyphicon glyphicon-search"></div>
+    <div onclick="myFunction()" class="glyphicon glyphicon-search"></div>
         </li>
       </ul></div></div></nav>
     </header>
     <div class="main">Connect with us!</div>
-
+<script> 
+function myFunction() {
+document.getElementById("input").value=null;
+}
+</script>
 <script src="jquery-2.2.3.min.js"></script>
   <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
