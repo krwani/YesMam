@@ -361,6 +361,9 @@ h1{
     font-size:0.6em;
     position: absolute;
     right: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size:7px;
   }
   #map span,#sponsors span,#event span{
     width: 100%;
