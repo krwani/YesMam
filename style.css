@@ -131,7 +131,11 @@ background-color:#262626;
 #input, #search{
   width:250px;
 }
-
+.glyphicon-search:before {
+    position: relative;
+    left: 220px;
+    top: 15px;
+}
 }
 
 
@@ -146,6 +150,7 @@ background-color:#262626;
   .glyphicon-search:before {
     position: relative;
     left: 220px;
+    top: 15px;
 }
   #input, #search{
   width:200px;
@@ -240,7 +245,8 @@ h1{
 }
 .glyphicon-search:before {
     position: relative;
-    left: 220px;
+    left: 0px;
+    top: 5px;
 }
 .navbar-header button.navbar-toggle {
     clear: both;
@@ -257,7 +263,7 @@ h1{
   .navbar-brand h1 { 
     padding-top: 10px;
     font-size: 5.5vw; 
-   width: 80%;
+   
   }
   #slogan{ 
     font-size: .7em;
@@ -286,7 +292,8 @@ h1{
 }
   #clg{
     font-size:0.8em;
-    margin-right:10px;
+    position:absolute;
+    right:10px;
   }
   .navbar-toggle{
     background-color: #CCCCCC;
