@@ -126,15 +126,16 @@ background-color:#262626;
      background-position: center;
     padding:0;
   }
-  col-lg-4{width:33%;
-}
 #input, #search{
   width:250px;
 }
 .glyphicon-search:before {
     position: relative;
-    left: 220px;
+    left: 270px;
     top: 15px;
+}
+#input{
+  height:28px;
 }
 }
 
@@ -151,6 +152,9 @@ background-color:#262626;
     position: relative;
     left: 220px;
     top: 15px;
+}
+#input{
+  height:25px;
 }
   #input, #search{
   width:200px;
@@ -298,7 +302,7 @@ h1{
     background-color: #CCCCCC;
   }
   .navbar{
-  min-height: 50px; 
+  min-height: 0px; 
 }
 }
 
@@ -365,6 +369,6 @@ h1{
     top: 5px;
 }
 .navbar{
-  min-height: 50px; 
+  min-height: 0px; 
 }
 }
