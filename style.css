@@ -305,8 +305,8 @@ h1{
 
 @media (max-width: 580px) {
   #input{
-  width:100px;
-  height: 15px;
+  width:60px;
+  height: 12px;
 }
 .container .jumbotron {
     margin-top: 50px;
@@ -317,7 +317,8 @@ h1{
   }
   .navbar-brand h1 {  
     padding-top: 5px;
-    font-size: 6vw;
+    font-size: 6.5vw;
+    width:50%;
   }
     .panel-footer {
     padding-top: 0;
@@ -344,6 +345,8 @@ h1{
   }
   #slogan{
     font-size:0.5em;
+        text-align: left;
+        width:60%;
   }
   
   #logo-img{
@@ -355,7 +358,7 @@ h1{
   #clg{
     font-size:0.6em;
     position: absolute;
-    right: 5px;
+    right: 0;
   }
   #map span,#sponsors span,#event span{
     width: 100%;
