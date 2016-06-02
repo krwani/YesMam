@@ -7,7 +7,9 @@ body {
   background-color: #CCCCCC;
   font-family: 'Oxygen', sans-serif;
 }
-
+toggle:hover {
+    background-color: white;
+}
 #header-nav {
   background-color: white;
   border-radius: 0;
@@ -126,7 +128,7 @@ background-color:#262626;
   }
   col-lg-4{width:33%;
 }
-input{
+#input, #search{
   width:250px;
 }
 
@@ -145,7 +147,7 @@ input{
     position: relative;
     left: 220px;
 }
-  input{
+  #input, #search{
   width:200px;
 }
 #clg{
@@ -153,6 +155,9 @@ input{
 }
 h1{
       font-size: 3.5em;
+}
+#logo-img {
+  width:200px;
 }
 #slogan{
   margin-bottom:10px;
@@ -171,7 +176,7 @@ h1{
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-input{
+#input, #search{
   width:150px;
 }
 .container {
@@ -195,13 +200,13 @@ input{
   .jumbotron p {
     font-size: 16.5px;
 }
-  #logo-img{
-    float:left;
-        width: 200px;
-    height: 100px;
-    /* margin-top: 50px; */
-    margin: 30px 15px 10px 0;
-  }
+ #logo-img {
+    float: left;
+    width: 160px;
+    height: 120px;
+    margin-top: 50px;
+    margin: 15px 15px 10px 0;
+}
   #clg{
     font-size:1.1em;
     position:absolute;
@@ -210,22 +215,28 @@ input{
   .navbar-brand h1 {
     width:50%;
     font-size:3em;
+    line-height: .9;
+    margin-top:10px;
   }
   
-  /*.navbar-brand{
-    height:0;
-  }*/
+  .navbar-brand {
+    padding-top: 0;
+}
 }
 
 @media (max-width: 767px) {
   col-sm-12{
     width:100%;
   }
-  .navbar-header{
-    height:150px;
+  #search{
+    width:150px;
   }
-  input{
-  width:150px;
+  .navbar-header{
+    height:0;
+  }
+  #input{
+  width:120px;
+  height: 20px;
 }
 .glyphicon-search:before {
     position: relative;
@@ -235,13 +246,17 @@ input{
     clear: both;
     margin-top: 0; 
 }
+.navbar-toggle{
+  margin:2px 0 2px;
+      padding: 6px 8px;
+}
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
   }
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 5vw; 
+    font-size: 5.5vw; 
    width: 80%;
   }
   #slogan{ 
@@ -266,11 +281,12 @@ input{
    #logo-img {
     background: url('j.jpg') no-repeat;
     margin: 5px 5px 5px 5px;
-    width: 100px;
-    height: 85px;
+    width: 120px;
+    height: 100px;
 }
   #clg{
     font-size:0.8em;
+    margin-right:10px;
   }
   .navbar-toggle{
     background-color: #CCCCCC;
@@ -278,15 +294,16 @@ input{
 }
 
 @media (max-width: 580px) {
-  input{
-  width:200px;
+  #input{
+  width:100px;
+  height: 15px;
 }
 .container .jumbotron {
     margin-top: 50px;
     padding: 0;
   }
   .navbar-brand{
-        padding: 10px 10px 0 0;
+        padding: 0px 10px 0 0;
   }
   .navbar-brand h1 {  
     padding-top: 5px;
@@ -315,20 +332,12 @@ input{
     float: left;
     width: 100%;
   }
-  .navbar-header{
-    height:100px;
-  }
   #slogan{
     font-size:0.5em;
   }
-  #img-size {
-    padding-right: 5px;
-        height: 100px;
-    width: 75px;
-}
   
   #logo-img{
-    background: url('j3.jpg') no-repeat;
+    background: url('j.jpg') no-repeat;
     margin: 5px 5px 5px 0;
     height: 85px;
     width: 100px;
@@ -341,4 +350,9 @@ input{
   #map span,#sponsors span,#event span{
     width: 100%;
   }
+  .glyphicon-search:before {
+    position: relative;
+    left: 0px;
+    top: 5px;
+}
 }
