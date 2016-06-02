@@ -306,7 +306,7 @@ h1{
 @media (max-width: 390px) {
   #input{
   width:60px;
-  height: 12px;
+  height: 15px;
 }
 .container .jumbotron {
     margin-top: 50px;
@@ -363,7 +363,7 @@ h1{
     right: 0;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
-    font-size:7px;
+    font-size:8px;
   }
   #map span,#sponsors span,#event span{
     width: 100%;
