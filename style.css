@@ -102,7 +102,9 @@ padding :10px;}
   clear: both;
   margin-top: -30px;
 }
-
+.panel-footer section{
+  text-align:center;
+}
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
@@ -111,7 +113,7 @@ padding :10px;}
   border-top: 0;
 }
 .panel-footer div.row {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
@@ -290,7 +292,7 @@ h1{
 }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 580px) {
   #input{
   width:60px;
   height: 15px;
