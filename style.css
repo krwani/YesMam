@@ -299,6 +299,8 @@ h1{
   width:60px;
   height: 15px;
 }
+.col-sm-12{width:100%;}
+
 .container .jumbotron {
     margin-top: 50px;
     padding: 0;
