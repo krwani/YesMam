@@ -42,7 +42,7 @@ button{
 #clg{
  font-family: 'Playfair Display', serif;
  /* position:absolute;
-  right:20px;*/font-style: italic;
+  right:20px;*/
   font-size:1.5em;
  font-weight:bold;
   color:black;vertical-align: middle;
@@ -79,7 +79,7 @@ padding :10px;}
   text-decoration: none;
 }
 #slogan {
-  
+  font-style: italic;
   color: black;
   text-transform: uppercase;
   font-size: 1em;
@@ -218,6 +218,9 @@ h1{
   .navbar-brand {
     padding-top: 0;
 }*/
+.col-md-6{
+  width:50%;
+}
 .col-md-9{
   width:66%;
 }
