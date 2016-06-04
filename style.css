@@ -141,7 +141,12 @@ padding :10px;}
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
- 
+ #clg{
+      font-size: 1.2em;
+}
+#input, #search{
+  width:200px;
+}
   /*#logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 80%;
@@ -153,12 +158,8 @@ padding :10px;}
     left: 220px;
     top: 15px;
 }
-  #input, #search{
-  width:200px;
-}
-#clg{
-      font-size: 1em;
-}
+  
+
 h1{
       font-size: 3.5em;
 }
