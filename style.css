@@ -50,6 +50,7 @@ button{
  margin-top:30px;
  text-align:center;
  margin-bottom: 10px;
+ float:left;
 }
 #logo-img {
   background-image: url("j.jpg");
@@ -73,6 +74,7 @@ padding :10px;}
   margin-bottom: 0;
   line-height: .75;
   color:black;
+  float:left;
  /* width:550px;*/
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -147,6 +149,9 @@ padding :10px;}
 #input, #search{
   width:200px;
 }
+h1{
+      font-size: 3.5em;
+}
   /*#logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 80%;
@@ -157,11 +162,6 @@ padding :10px;}
     position: relative;
     left: 220px;
     top: 15px;
-}
-  
-
-h1{
-      font-size: 3.5em;
 }
 #logo-img {
   width:200px;
@@ -196,7 +196,7 @@ h1{
 #slogan{
   margin-top:18px;
 }
- #logo-img {
+  #logo-img {
    background-image: url("j1.jpg");
     float: left;
     width: 160px;
@@ -227,7 +227,13 @@ h1{
 .col-md-3{
   width:33%;
 }
+#slogan{
+  font-size: 0.9em;
+    margin-top: 15px;
+    float: left;
 }
+}
+
 navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: white;
 }
@@ -341,9 +347,8 @@ navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   #clg{
     font-size:1em;
     font-family: "Times New Roman", Times, serif;
-    font-style: italic;
+   margin-top:0;
     font-weight: normal;
-    margin-top:40px;
   }
   button{
         width: 44px;
