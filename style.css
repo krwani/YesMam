@@ -239,7 +239,7 @@ h1{
     background-color: white;
 }
 .navbar-toggle{
-  
+      background-color:transparent;
       padding: 6px 8px;
 }
 @media (max-width: 767px) {
@@ -353,7 +353,6 @@ h1{
   }
   button{
         width: 44px;
-    height: 20px;
     font-size: 12px;
   }
   .glyphicon-search:before {
