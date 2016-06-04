@@ -362,7 +362,7 @@ h1{
   }
   #slogan{
     height:25px;
-    float: none;
+    float: left;
     line-height: 1.1;
   }
   #footer-sites{
