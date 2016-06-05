@@ -1,7 +1,9 @@
 function myFunction() {
 document.getElementById("search").value=null;
 }
-
+function login() {
+window.open("Wrong username and password! ");
+}
 function fun1(){
 document.getElementById("b").innerHTML= "Physics";
 }
