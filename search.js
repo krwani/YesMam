@@ -2,8 +2,8 @@ function myFunction() {
 document.getElementById("search").value=null;
 }
 function login() {
-window.open("Wrong username and password! ");
-document.getElementById("search").value=null;
+window.alert("Wrong username and password! ");
+document.getElementById("user").value=null;
 }
 
 function fun1(){
