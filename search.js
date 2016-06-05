@@ -18,4 +18,4 @@ var data = {
     ]
 };
 
-var Chart = new Chart(chrt).Bar(data);
+var art = new Chart(chrt).Bar(data);
