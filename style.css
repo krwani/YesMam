@@ -46,6 +46,10 @@ position: relative;
 .canvas{
   text-align: center;
 }
+.canvasjs-chart-canvas{
+  position: relative;
+    left: 25%;
+}
 .btn-primary {
     color: black;
     background-color: white;
