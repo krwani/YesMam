@@ -1,7 +1,27 @@
 function myFunction() {
 document.getElementById("search").value=null;
 }
-window.onload = function () {
+
+function fun1(){
+document.getElementById("b").innerHTML= "Physics";
+}
+function fun2(){
+document.getElementById("b").innerHTML= "Chemistry";
+}
+function fun3(){
+document.getElementById("b").innerHTML= "Mathematics";
+}
+function fun4(){
+document.getElementById("b").innerHTML= "Chapter 1";
+gy();}
+function fun5(){
+document.getElementById("b").innerHTML= "Chapter 2";
+gy();}
+function fun6(){
+document.getElementById("b").innerHTML= "Chapter 3";
+gy();}
+
+function gy() {
  var chart = new CanvasJS.Chart("graphs",
  {
   animationEnabled: true,
