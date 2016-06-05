@@ -1,7 +1,7 @@
 function myFunction() {
 document.getElementById("search").value=null;
 }
-
+function myFunction(){
 var chrt = document.getElementById("graphs").getContext("2d");
 
 var data = {
@@ -19,3 +19,4 @@ var data = {
 };
 
 var art = new Chart(chrt).Bar(data);
+}
