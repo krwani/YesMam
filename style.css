@@ -33,6 +33,7 @@ toggle:hover {
     position: relative;
     left: 220px;
     top: 15px;
+     cursor: pointer;
 }
 #input{
   margin:0 0 5px 5px;
@@ -41,9 +42,6 @@ toggle:hover {
 button{
 position: relative;
     right: 5px;
-}
-.glyphicon glyphicon-search{
-  cursor: pointer;
 }
 .canvas{
   text-align: center;
@@ -61,9 +59,9 @@ position: relative;
 }
 .dropdown-menu {
     position: absolute;
-    top: 70%;
+    top: 55%;
     width:50%;
-    left: 20%;
+    left: 24%;
     text-align:center;
     min-width: 150px;
     list-style-type: none;
@@ -293,16 +291,7 @@ h1{
   #footer-sites{
     margin-top: 25px;
   }
-  .btn{
-    width: 50%;
-    margin-left: 25%;
-  }
-  .dropdown-menu {
-    position: absolute;
-    top: 60%;
-    width: 50%;
-    left: 24%;
-  }
+  
   /*
   #search{
     width:150px;
