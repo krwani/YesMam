@@ -3,7 +3,9 @@ document.getElementById("search").value=null;
 }
 function login() {
 window.open("Wrong username and password! ");
+document.getElementById("search").value=null;
 }
+
 function fun1(){
 document.getElementById("b").innerHTML= "Physics";
 }
