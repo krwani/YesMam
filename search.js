@@ -9,9 +9,9 @@ var data = {
     datasets: [
         {
             label: "Section Wise Performance", //optional
-            fillColor: "blue(220,220,220,0.8)",
+            strokeColor: "rgba(220,220,220,0.8)",
             
-            highlightFill: "blue(220,220,220,0.75)",
+            highlightStroke: "rgba(220,220,220,1)",
             
             data: [33, 66] // y-axis
         }
