@@ -1,21 +1,25 @@
 function myFunction() {
 document.getElementById("search").value=null;
+}
 
-var chrt = document.getElementById("graphs").getContext("2d");
 
-var data = {
-    labels: ["Above Average", "Below Average"], //x-axis
-    datasets: [
-        {
-            label: "Section Wise Performance", //optional
-            strokeColor: "rgba(220,220,220,0.8)",
-            
-            highlightStroke: "rgba(220,220,220,1)",
-            
-            data: [33, 66] // y-axis
-        }
-    ]
-};
+window.onload = function () {
+	var chart = new CanvasJS.Chart("graphs",
+	{
+		animationEnabled: true,
+		title:{
+			text: "Section Wise Performance"
+		},
+		data: [
+		{
+			type: "column", //change type to bar, line, area, pie, etc
+			dataPoints: [
+				{ label: "Above Average", y: 33 },
+				{ label: "Below Average", y: 66 },
+			]
+		}
+		]
+		});
 
-var art = new Chart(chrt).Bar(data);
+	chart.render();
 }
