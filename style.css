@@ -1,3 +1,6 @@
+.row{
+  margin-right:0;
+}
 header{
   background-color: #CCCCCC;
 }
@@ -42,14 +45,19 @@ position: relative;
 .glyphicon glyphicon-search{
   cursor: pointer;
 }
+.canvas{
+  text-align: center;
+}
 .btn-primary {
     color: black;
     background-color: white;
     border-color: black;
 }
 .btn{
-  width: 20%;
-    margin-left: 10%;
+  width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    border-radius:0;
 }
 .dropdown-menu {
     position: absolute;
@@ -59,6 +67,7 @@ position: relative;
     text-align:center;
     min-width: 150px;
     list-style-type: none;
+    border-radius:0;
 }
 .btn .caret {
     /* margin-left: 0; */
@@ -288,6 +297,12 @@ h1{
     width: 50%;
     margin-left: 25%;
   }
+  .dropdown-menu {
+    position: absolute;
+    top: 60%;
+    width: 50%;
+    left: 24%;
+  }
   /*
   #search{
     width:150px;
@@ -406,6 +421,12 @@ h1{
   .btn{
     width: 50%;
     margin-left: 25%;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 60%;
+    width: 50%;
+    left: 24%;
   }
   /*
     .panel-footer {
