@@ -10,7 +10,7 @@ body {
   background-color: #CCCCCC;
   font-family: 'Oxygen', sans-serif;
 }
-.intro{
+.intro, .intro1{
   position: relative;
     display: inline-block;
 }
@@ -38,8 +38,9 @@ body {
     text-align: center;
     color:black;
 }
-.intro:hover .contact{
+.intro1:hover .contact{
     display: block;
+    width: 200px;
 }
 toggle:hover {
     background-color: white;
@@ -360,7 +361,9 @@ h1{
 .info{
   width:100%;
 }
-
+.intro1:hover{
+  margin-bottom: 45px;
+}
 .intro:hover {
     margin-bottom: 90px;
 }
@@ -455,10 +458,12 @@ h1{
 .info{
   width:100%;
 }
+.intro1:hover{
+  margin-bottom: 45px;
+}
 .intro:hover {
     margin-bottom: 90px;
 }
-
 #slogan{
     font-size:0.75em;
         line-height: 1;
