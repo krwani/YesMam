@@ -10,6 +10,20 @@ body {
   background-color: #CCCCCC;
   font-family: 'Oxygen', sans-serif;
 }
+.intro{
+  position: relative;
+    display: inline-block;
+}
+.info{
+  display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+.intro:hover .info {
+    display: block;
+}
 toggle:hover {
     background-color: white;
 }
@@ -55,8 +69,13 @@ padding-top:15px;
     background-color: red;
    color:black;
 visibility:hidden;
-  margin-top:25px;
-  margin-bottom:25px;
+  margin-top:20px;
+  margin-bottom:20px;
+  cursor: pointer;
+}
+#connect:hover{
+  border:2px solid black;
+  padding-top:12px;
 }
 button{
 position: relative;
@@ -170,7 +189,7 @@ padding :10px;}
   text-align:center;
 }
 .panel-footer {
-  margin-top: 30px;
+  margin-top: 90px;
   padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
