@@ -20,8 +20,12 @@ body {
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
+    color:black;
+    width: 700%;
+    overflow: auto;
+    height: 90px;
 }
-.intro:hover .info {
+.intro:hover .info{
     display: block;
 }
 toggle:hover {
@@ -57,6 +61,10 @@ toggle:hover {
   color:red;
   text-align: center;
     margin-bottom: 15px;
+    margin-top: 75px;
+}
+#graphs{
+  margin-top: 75px;
 }
 #connect{
 position:absolute;
@@ -333,7 +341,15 @@ h1{
   #footer-sites{
     margin-top: 25px;
   }
-  
+  #graphs, #select{
+  margin-top: 0;
+}
+.info{
+  width:100%;
+}
+#id{
+  margin-top:85px;
+}
   /*
   #search{
     width:150px;
@@ -422,6 +438,12 @@ h1{
   width:150px;
   height: 25px;
 }
+.info{
+  width:100%;
+}
+#id{
+  margin-top:85px;
+}
 #slogan{
     font-size:0.75em;
         line-height: 1;
@@ -459,6 +481,9 @@ h1{
     width: 50%;
     left: 24%;
   }
+  #graphs, #select{
+  margin-top: 0;
+}
   /*
     .panel-footer {
     padding-top: 0;
