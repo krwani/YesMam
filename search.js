@@ -16,13 +16,13 @@ function fun3(){
 document.getElementById("b").innerHTML= "Mathematics";
 }
 function fun4(){
-document.getElementById("b").innerHTML= "Chapter 1";
+document.getElementById("c").innerHTML= "Chapter 1";
 gy();}
 function fun5(){
-document.getElementById("b").innerHTML= "Chapter 2";
+document.getElementById("c").innerHTML= "Chapter 2";
 gy();}
 function fun6(){
-document.getElementById("b").innerHTML= "Chapter 3";
+document.getElementById("c").innerHTML= "Chapter 3";
 gy();}
 
 function gy() {
