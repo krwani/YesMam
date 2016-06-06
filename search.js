@@ -3,6 +3,7 @@ document.getElementById("search").value=null;
 }
 function login() {
 document.getElementById("input").value=null;
+document.getElementById("pswrd").value=null;
 window.alert("Wrong username and password! ");
 }
 
