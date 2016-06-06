@@ -39,6 +39,11 @@ toggle:hover {
   margin:0 0 5px 5px;
   width:250px;
 }
+#select{
+  color:red;
+  text-align: center;
+    margin-bottom: 15px;
+}
 button{
 position: relative;
     right: 5px;
