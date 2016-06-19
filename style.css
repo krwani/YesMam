@@ -1,6 +1,12 @@
 .row{
   margin-right:0;
 }
+.schools{
+  background-color: cornsilk;
+    color: darkred;
+    margin: 5%;
+    padding: 1%;
+}
 #rank{
   visibility:hidden;
 }
