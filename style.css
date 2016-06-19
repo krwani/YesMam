@@ -1,6 +1,9 @@
 .row{
   margin-right:0;
 }
+#user{
+  visibility:hidden; 
+}
 #rank{
   visibility:hidden;
 }
