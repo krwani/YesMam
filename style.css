@@ -590,6 +590,9 @@ h1{
   .schools>p{
     font-size: 23px;
   }
+  #join{
+    font-size:16px;
+  }
   /*
     .panel-footer {
     padding-top: 0;
