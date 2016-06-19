@@ -122,7 +122,23 @@ visibility:hidden;
   margin-bottom:20px;
   cursor: pointer;
 }
-#connect:hover{
+#join{
+position:absolute;
+left:25%;
+width:50%;
+height:50px;
+font-weight:bold;
+  text-align:center;
+padding-top:15px;
+    background-color: red;
+   color:black;
+visibility:hidden;
+  margin-top:20px;
+  margin-bottom:20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#join:hover, #connect:hover{
   border:2px solid black;
   padding-top:12px;
 }
