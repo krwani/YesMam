@@ -579,10 +579,16 @@ h1{
   #graphs, #select{
   margin-top: 0;
 }
-#school-name{
-  width:90%;}
+#school-name {
+    width: 100%;
+    height: 250px;
+}
   #school-name span{
     width:100%;
+    font-size:1.2em;
+  }
+  .schools>p{
+    font-size: 23px;
   }
   /*
     .panel-footer {
