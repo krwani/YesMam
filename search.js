@@ -1,5 +1,7 @@
 function myFunction() {
 document.getElementById("search").value=null;
+document.getElementById('clg').style.visibility='hidden';
+document.getElementById('user').style.visibility='visible'; 
 }
 function login() {
 document.getElementById("input").value=null;
