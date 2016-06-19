@@ -4,6 +4,11 @@ Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
 Image credits: unsplash.com
 */
 
+img {
+    vertical-align: middle;
+    height: 15%;
+    opacity: 0.8;
+}
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
@@ -118,7 +123,7 @@ Image credits: unsplash.com
   background-image: url(2.jpg);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(3.JPG);
+  background-image: url(3.jpg);
 }
 
 /********************************/
@@ -128,5 +133,12 @@ Image credits: unsplash.com
     .hero { width: 980px; }    
 }
 @media screen and (max-width: 640px){
-    .hero h1 { font-size: 4em; }    
+    .hero h1 { font-size: 3em;
+    opacity:0.8;}    
+    
+img {
+    vertical-align: middle;
+    height: 10%;
+    opacity: 0.8;
+}
 }
