@@ -8,7 +8,7 @@
     padding: 1%;
 }
 #rank{
-  visibility:hidden;
+  display:none;
 }
 h3{
   text-align:center;
@@ -117,7 +117,7 @@ font-weight:bold;
 padding-top:15px;
     background-color: red;
    color:black;
-visibility:hidden;
+display:none;
   margin-top:20px;
   margin-bottom:20px;
   cursor: pointer;
