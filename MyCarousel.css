@@ -9,6 +9,9 @@ img {
     height: 15%;
     opacity: 0.8;
 }
+img:hover{
+    border:2px solid black;
+}
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
