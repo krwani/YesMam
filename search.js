@@ -6,7 +6,7 @@ document.getElementById("input").value=null;
 window.alert("Wrong username and password! ");
 }
 function call(){
- window.open("technovanza.org");
+ window.open("next.html");
 }
 function fun1(){
 document.getElementById("b").innerHTML= "Physics";
