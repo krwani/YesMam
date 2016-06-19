@@ -46,5 +46,6 @@ function gy() {
 
 document.getElementById("connect").innerHTML = "Connect with us!";
 document.getElementById('connect').style.visibility='visible';
+document.getElementById('rank').style.visibility='visible';
 }
 
