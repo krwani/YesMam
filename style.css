@@ -1,20 +1,20 @@
 .row{
   margin-right:0;
 }
-table{border: 1px solid black;
-border-collapse: collapse;    width: 40%;
+table {
+    border-collapse: collapse;
+    width: 100%;color:black;
+border: 1px solid black;text-align: center;
 }
-th, td {
-    text-align: center;
-    padding: 5px;height: 20px;
+th, td {height:20px;
+ padding: 5px;
 border: 1px solid black;
 }
-
-tr:nth-child(even){background-color: #cccccc}
-
+tr:nth-child(odd){background-color: #f2f2f2;}
+tr:nth-child(even){background-color: #DBDBFF;}
 th {
-    background-color: #808080;
-    }
+    background-color: #8f8fff;
+}
 header{
   background-color: #CCCCCC;
 }
