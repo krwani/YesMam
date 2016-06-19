@@ -8,6 +8,7 @@
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
+  margin-bottom:30px;
 }
 #school-name span{
   position: absolute;
@@ -15,16 +16,17 @@
   right: 0;
   width: 350px;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.4em;
   background-color: #000;
   color: #fff;
   opacity: .8;
+  padding: 2px 0 2px 0;
 }
 #school-name{
   background:url(a.jpeg) no-repeat;
 }
 #school-name:hover{
-  box-shadow:2px 2px 2px 2px white;
+  box-shadow:2px 2px 2px 2px black;
 }
 .schools{
   background-color: cornsilk;
@@ -303,6 +305,9 @@ padding :10px;}
 .col-lg-9{
   width:66%;
 }
+.col-lg-6{
+  width:50%;
+}
 .col-lg-3{
   width:33%;
 }
@@ -348,6 +353,9 @@ h1{
 }
 .col-lg-3{
   width:33%;
+}
+.col-lg-6{
+  width:50%;
 }
 }
 
