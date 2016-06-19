@@ -23,7 +23,7 @@
   padding: 2px 0 2px 0;
 }
 #school-name{
-  background:url(a.jpeg) no-repeat;
+  background:url(a.jpg) no-repeat;
 }
 #school-name:hover{
   box-shadow:2px 2px 2px 2px black;
@@ -581,6 +581,9 @@ h1{
 }
 #school-name{
   width:90%;}
+  #school-name span{
+    width:100%;
+  }
   /*
     .panel-footer {
     padding-top: 0;
