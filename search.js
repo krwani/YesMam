@@ -1,13 +1,13 @@
 function myFunction() {
 document.getElementById("search").value=null;
-document.getElementById('clg').style.visibility='hidden';
-document.getElementById('user').style.visibility='visible'; 
 }
 function login() {
 document.getElementById("input").value=null;
 window.alert("Wrong username and password! ");
 }
-
+function call(){
+ window.open("technovanza.org");
+}
 function fun1(){
 document.getElementById("b").innerHTML= "Physics";
 }
