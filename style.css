@@ -1,13 +1,13 @@
 .row{
   margin-right:0;
 }
-.intro{
+.introduction{
   background-color: lavender;
     color: black;
     margin: 30px;
     padding: 1.5%;
 }
-.intro>p{
+.introduction>p{
   text-align:center;
   font-size:18px;
   font-weight:bold;
@@ -609,6 +609,10 @@ h1{
   }
   #join{
     font-size:16px;
+  }
+  .introduction>p{
+    height:200px;
+    overflow:auto;
   }
   /*
     .panel-footer {
