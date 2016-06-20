@@ -4,7 +4,9 @@
 .testimonial{
     margin-bottom: 10px;
 }
-
+body{
+    background-color:white;
+}
     .testimonial-section {
         width: 100%;
         height: auto;
@@ -40,7 +42,9 @@
             display:inline-block;
             vertical-align: top;
         }
-
+        h1{
+            color:#5f2315;
+        }
         .testimonial-writer{
             display: inline-block;
             vertical-align: top;
@@ -53,6 +57,7 @@
 
             .testimonial-writer-designation{
                 font-size: 85%;
+                color:#5f2315;
             }
 
             .testimonial-writer-company{
