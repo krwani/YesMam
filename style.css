@@ -1,6 +1,20 @@
 .row{
   margin-right:0;
 }
+.intro{
+  background-color: lavender;
+    color: black;
+    margin: 30px;
+    padding: 1.5%;
+}
+.intro>p{
+  text-align:center;
+  font-size:18px;
+  font-weight:bold;
+}
+#intro-msg{
+  text-align:justify;
+}
 #school-name{
   height: 300px;
   width: 350px;
@@ -34,6 +48,9 @@
     margin: 30px;
     padding: 1%;
 }
+.schools>p{
+    font-size: 23px;
+  }
 #rank{
   display:none;
 }
@@ -230,7 +247,10 @@ position: relative;
   height: 160px;
   margin: 10px 15px 10px 0;
 padding :10px;}
-
+#logo-img:hover {
+    opacity: 0.9;
+    border: 1px solid black;
+}
 .navbar-brand {
   padding-top: 25px;
   float:none;
@@ -586,9 +606,6 @@ h1{
   #school-name span{
     width:100%;
     font-size:1.2em;
-  }
-  .schools>p{
-    font-size: 23px;
   }
   #join{
     font-size:16px;
