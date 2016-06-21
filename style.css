@@ -693,7 +693,7 @@ h1{
     overflow:auto;
   }
   #log,#us{
-    position:absolute;
+    position:relative;
     right:10%;
   }
   /*
