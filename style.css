@@ -5,7 +5,8 @@
   margin:30px;
 }
 .dropdown-menu>li{
-  color:red;
+  color:black;
+  cursor:pointer;
 }
 .office{
   color:black;
