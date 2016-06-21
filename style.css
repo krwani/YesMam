@@ -692,6 +692,10 @@ h1{
     height:200px;
     overflow:auto;
   }
+  #log,#us{
+    position:absolute;
+    right:10%;
+  }
   /*
     .panel-footer {
     padding-top: 0;
