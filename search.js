@@ -4,13 +4,13 @@ document.getElementById("search").value=null;
 function submit(){
  var in3=document.getElementById("nm").value;
  var in4=document.getElementById("ph").value;
- if(in3===""){
+ if(in3===null){
   document.getElementById('note1').style.display='block';
  }
- if(in4===""){
+ if(in4===null){
   document.getElementById('note2').style.display='block';
  }
- if(in3!=""&&in4!=""){
+ if(in3!=null&&in4!=null){
   document.getElementById('gayab').style.display='none';
   document.getElementById('thanku').style.display='block';
  }
