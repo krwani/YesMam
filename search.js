@@ -6,11 +6,11 @@ function submit(){
  var in4=document.getElementById("ph").value;
    window.alert("a:"+in3);
      window.alert("b:"+in4);
- if(in3===null){
+ if(in3===""){
   window.alert("x");
   document.getElementById('note1').style.display='block';
  }
- if(in4===null){
+ if(in4===""){
   window.alert("y");
   document.getElementById('note2').style.display='block';
  }
