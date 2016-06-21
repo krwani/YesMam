@@ -1,8 +1,21 @@
 function myFunction() {
 document.getElementById("search").value=null;
 }
+function submit(){
+ var in3=document.getElementById("nm").value;
+ var in4=document.getElementById("ph").value;
+ if(in3===""){
+  document.getElementById('note1').style.display='block';
+ }
+ if(in4===""){
+  document.getElementById('note2').style.display='block';
+ }
+ if(in3!=""&&in4!=""){
+  document.getElementById('gayab').style.display='none';
+  document.getElementById('thanku').style.display='block';
+ }
+}
 function login() {
-
 var in1=document.getElementById("input1").value;
 var in2=document.getElementById("input2").value;
 if(in1===""||in2==="")
