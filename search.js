@@ -10,7 +10,7 @@ function submit(){
  if(in4===null){
   document.getElementById('note2').style.display='block';
  }
- if(in3!=null&&in4!=null){
+ if(in3!==null&&in4!==null){
   document.getElementById('gayab').style.display='none';
   document.getElementById('thanku').style.display='block';
  }
