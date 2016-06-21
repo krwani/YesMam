@@ -1,6 +1,9 @@
 .row{
   margin-right:0;
 }
+#map{
+  margin:30px;
+}
 .office{
   color:black;
   background-color:white;
