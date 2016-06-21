@@ -8,6 +8,8 @@ var in2=document.getElementById("input2").value;
 if(in1===""||in2==="")
 {
 window.alert("Enter username and password! ");
+document.getElementById("input1").value=null;
+document.getElementById("input2").value=null;
 }
 else{
  document.getElementById('log').style.display='none';
