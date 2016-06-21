@@ -344,10 +344,10 @@ padding :10px;}
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
- #clg{
+ #log,#us{
       font-size: 1.2em;
 }
-#input, #search{
+#input1,#input2, #search{
   width:200px;
 }
 h1{
@@ -552,7 +552,7 @@ h1{
     height: 85px;
     width: 100px;
   } 
-  #input{
+  #input1,#input2{
   width:150px;
   height: 25px;
 }
@@ -570,7 +570,7 @@ h1{
         line-height: 1;
         font-size: 0.6em;
   }
-  #clg{
+  #log,#us{
     font-size:1em;
     font-family: "Times New Roman", Times, serif;
    margin-top:0;
