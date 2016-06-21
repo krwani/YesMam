@@ -14,7 +14,7 @@ function submit(){
   window.alert(in4);
   document.getElementById('note2').style.display='block';
  }
- if(in3 !=null && in4 != null){
+ if(in3 !="" && in4 != ""){
   window.alert("c:"+in3);
   window.alert("ds:"+in4);
   document.getElementById('gayab').style.display='none';
