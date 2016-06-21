@@ -166,6 +166,26 @@ display:none;
   margin-bottom:20px;
   cursor: pointer;
 }
+#next,#back{
+position:absolute;
+left:25%;
+width:50%;
+height:50px;
+font-weight:bold;
+  text-align:center;
+padding-top:15px;
+    
+display:block;
+  margin-top:20px;
+  margin-bottom:20px;
+  cursor: pointer;
+}
+#next{
+      background-color: dodgerblue;
+}
+#back{
+      background-color: forestgreen;
+}
 #join{
 position:absolute;
 left:25%;
