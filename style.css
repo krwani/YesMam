@@ -1,12 +1,6 @@
 .row{
   margin-right:0;
 }
-.log{
-  display:none;
-}
-.us{
-  display:block;
-}
 .introduction{
   background-color: lavender;
     color: black;
@@ -233,7 +227,7 @@ position: relative;
     display: inline-block;
     width: 8px;
 }
-#clg{
+#clg, #log, #us{
  font-family: 'Playfair Display', serif;
  /* position:absolute;
   right:20px;*/
@@ -245,6 +239,12 @@ position: relative;
  text-align: right;
  margin-bottom: 10px;
  float:left;
+}
+#log{
+  display:block;
+}
+#us{
+  display:none;
 }
 #logo-img {
   background-image: url("j.jpg");
