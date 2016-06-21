@@ -186,6 +186,10 @@ display:block;
 #next{
       background-color: forestgreen;
 }
+#back:hover,#next:hover{
+  opacity:0.8;
+  border:1px white;
+}
 #join{
 position:absolute;
 left:25%;
