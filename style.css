@@ -1,8 +1,12 @@
 .row{
   margin-right,margin-left:0;
 }
+.graphs{
+  margin:0;
+}
 #graphs{
   display:none;
+  margin:0;
  /* height:300px;
   width:80%;*/
 }
