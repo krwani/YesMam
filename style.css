@@ -138,7 +138,7 @@ toggle:hover {
     top: 15px;
      cursor: pointer;
 }
-#input{
+#input,#input1,#input2{
   margin:0 0 5px 5px;
   width:250px;
 }
