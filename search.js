@@ -3,7 +3,16 @@ document.getElementById("search").value=null;
 }
 function login() {
 document.getElementById("input").value=null;
-window.alert("Wrong username and password! ");
+var in1=document.getElementById("input1").value;
+var in2=document.getElementById("input2").value;
+if(in1===""||in2==="")
+{
+window.alert("Enter username and password! ");
+}
+else{
+ document.getElementById('log').style.display='none';
+ document.getElementById('us').style.display='block';
+}
 }
 function call(){
  window.open("next.html");
