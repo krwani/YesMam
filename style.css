@@ -4,8 +4,16 @@
 #profile{
   margin-bottom:15px; color:black;
 }
-#note{
+#note1,#note2{
   color:red;
+  display:none;
+}
+#thanku{
+  display:none;
+  color:firebrick;
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
 }
 .form-group{
   color:black;
