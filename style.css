@@ -1,10 +1,10 @@
 .row{
   margin-right:0;
 }
-#log{
+.log{
   display:none;
 }
-#us{
+.us{
   display:block;
 }
 .introduction{
