@@ -1,6 +1,15 @@
 .row{
   margin-right:0;
 }
+#note{
+  color:red;
+}
+#select{
+  color:black;
+}
+#select:hover{
+  opacity:0.8;
+}
 .introduction{
   background-color: lavender;
     color: black;
