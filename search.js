@@ -12,7 +12,7 @@ function submit(){
   window.alert("in4");
   document.getElementById('note2').style.display='block';
  }
- if(in3!==null&&in4!==null){
+ if(in3!=null&&in4!=null){
   window.alert("in3");
   document.getElementById('gayab').style.display='none';
   document.getElementById('thanku').style.display='block';
