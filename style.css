@@ -188,7 +188,8 @@ display:block;
 }
 #back:hover,#next:hover{
   opacity:0.8;
-  border:1px white;
+  border:1px solid black;
+  text-decoration:none;
 }
 #join{
 position:absolute;
