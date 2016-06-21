@@ -167,7 +167,7 @@ display:none;
   cursor: pointer;
 }
 #next,#back{
-position:absolute;
+position:relative;
 left:25%;
 width:50%;
 height:50px;
@@ -180,10 +180,10 @@ display:block;
   margin-bottom:20px;
   cursor: pointer;
 }
-#next{
+#back{
       background-color: dodgerblue;
 }
-#back{
+#next{
       background-color: forestgreen;
 }
 #join{
