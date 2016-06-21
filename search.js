@@ -6,17 +6,17 @@ function submit(){
  var in4=document.getElementById("ph").value;
    window.alert("a:"+in3);
      window.alert("b:"+in4);
- if(in3===null){
+ if(in3==null){
   window.alert(in3);
   document.getElementById('note1').style.display='block';
  }
- if(in4===null){
+ if(in4==null){
   window.alert(in4);
   document.getElementById('note2').style.display='block';
  }
- if(in3!==null&&in4!==null){
+ if(in3 !=null && in4 != null){
   window.alert("c:"+in3);
-    window.alert("ds:"+in4);
+  window.alert("ds:"+in4);
   document.getElementById('gayab').style.display='none';
   document.getElementById('thanku').style.display='block';
  }
