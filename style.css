@@ -1,6 +1,9 @@
 .row{
   margin-right,margin-left:0;
 }
+#graphs{
+  display:none;
+}
 #map{
   margin:30px;
 }
