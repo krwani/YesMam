@@ -21,6 +21,8 @@
   display:none;
 }
 #thanku{
+  position:relative;
+  top:45px;
   display:none;
   color:firebrick;
   font-weight:bold;
