@@ -16,7 +16,7 @@
   margin-bottom:15px; color:black;
 }
 #note1,#note2{
-  text-align:center;
+  text-align:left;
   color:red;
   display:none;
 }
