@@ -5,12 +5,15 @@ function submit(){
  var in3=document.getElementById("nm").value;
  var in4=document.getElementById("ph").value;
  if(in3===null){
+  window.alert("in3");
   document.getElementById('note1').style.display='block';
  }
  if(in4===null){
+  window.alert("in4");
   document.getElementById('note2').style.display='block';
  }
  if(in3!==null&&in4!==null){
+  window.alert("in3");
   document.getElementById('gayab').style.display='none';
   document.getElementById('thanku').style.display='block';
  }
