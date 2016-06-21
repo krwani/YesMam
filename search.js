@@ -7,14 +7,14 @@ function submit(){
    window.alert("a:"+in3);
      window.alert("b:"+in4);
  if(in3==null){
-  window.alert(in3);
+  window.alert("x");
   document.getElementById('note1').style.display='block';
  }
  if(in4==null){
-  window.alert(in4);
+  window.alert("y");
   document.getElementById('note2').style.display='block';
  }
- if(in3 !="" && in4 != ""){
+ if((in3 !="" )&& (in4 != "")){
   window.alert("c:"+in3);
   window.alert("ds:"+in4);
   document.getElementById('gayab').style.display='none';
