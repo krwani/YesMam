@@ -2,7 +2,7 @@ function myFunction() {
 document.getElementById("search").value=null;
 }
 function login() {
-document.getElementById("input").value=null;
+
 var in1=document.getElementById("input1").value;
 var in2=document.getElementById("input2").value;
 if(in1===""||in2==="")
