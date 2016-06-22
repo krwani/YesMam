@@ -69,6 +69,7 @@ function gy() {
   ]
  });
  chart.render();
+ document.getElementById('gh').style.display='block';
 document.getElementById("connect").innerHTML = "Connect with us!";
 document.getElementById('connect').style.display='block';
 document.getElementById('rank').style.display='block';
