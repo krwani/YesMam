@@ -11,8 +11,10 @@
   width:80%;
 }*/
 #line{
-  color:"firebrick";
-  width:"90%"; align:"center";
+  color:firebrick;
+  width:90%;
+  position:relative;
+  left:5%;
 border:0;
 margin:0;
   height:5px;
