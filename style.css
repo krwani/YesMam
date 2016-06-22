@@ -1,6 +1,9 @@
 .myClass{
   margin:0px;
 }
+.gh{
+  display:none;
+}
 /*.graphs{
   margin:0;
 }
