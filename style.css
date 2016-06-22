@@ -1,9 +1,6 @@
 .myClass{
   margin:0px;
 }
-#gh{
-  display:none;
-}
 /*.graphs{
   margin:0;
 }
@@ -280,7 +277,6 @@ position: relative;
 .canvasjs-chart-canvas{
   position: relative;
     left: 15%;
-    height:300px;
 }
 .btn-primary {
     color: black;
@@ -709,10 +705,6 @@ h1{
     position:relative;
     right:10%;
   }
-  .canvasjs-chart-canvas{
-  width:300px;
-    height:300px;
-}
   /*
     .panel-footer {
     padding-top: 0;
