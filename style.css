@@ -206,11 +206,11 @@ toggle:hover {
   color:red;
   text-align: center;
     margin-bottom: 15px;
-    margin-top: 75px;
+    /*margin-top: 75px;*/
 }
-#graphs{
+/*#graphs{
   margin-top: 75px;
-}
+}*/
 #connect{
 position:relative;
 left:25%;
