@@ -713,10 +713,7 @@ h1{
   #graphs, #select{
   margin-top: 0;
 }
-.school-name {
-    width: 100%;
-    height: 250px;
-}
+
   .school-name span{
     width:100%;
     font-size:1.2em;
@@ -761,4 +758,9 @@ h1{
 }
 */
 }
+@media (max-width: 580px) }
+.school-name {
+    width: 100%;
+    height: 250px;
+}}
 
