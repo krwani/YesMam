@@ -72,7 +72,7 @@ margin:0;
 #intro-msg{
   text-align:justify;
 }
-#school-name{
+.school-name{
   height: 300px;
   width: 350px;
   margin: auto;
@@ -81,7 +81,7 @@ margin:0;
   overflow: hidden;
   margin-bottom:30px;
 }
-#school-name span{
+.school-name span{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -93,7 +93,7 @@ margin:0;
   opacity: .8;
   padding: 2px 0 2px 0;
 }
-.school-name1{
+#school-name1{
   background:url(a1.jpg) no-repeat;
 }
 #school-name:hover{
