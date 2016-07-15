@@ -95,33 +95,43 @@ margin:0;
 }
 #school-name1{
   background:url(a1.jpg) no-repeat;
+  background-position:center;
 }
 #school-name2{
   background:url(a2.jpg) no-repeat;
+  background-position:center;
 }
 #school-name3{
   background:url(a3.jpg) no-repeat;
+background-position:center;
 }
 #school-name4{
   background:url(a4.jpg) no-repeat;
+  background-position:center;
 }
 #school-name5{
   background:url(a5.jpg) no-repeat;
+  background-position:center;
 }
 #school-name6{
   background:url(a6.jpg) no-repeat;
+  background-position:center;
 }
 #school-name7{
   background:url(a7.jpg) no-repeat;
+  background-position:center;
 }
 #school-name8{
   background:url(a8.jpg) no-repeat;
+  background-position:center;
 }
 #school-name9{
   background:url(a9.jpg) no-repeat;
+  background-position:center;
 }
 #school-name10{
   background:url(a10.jpg) no-repeat;
+  background-position:center;
 }
 .school-name:hover{
   box-shadow:2px 2px 2px 2px black;
